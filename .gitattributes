@@ -1,0 +1,6 @@
+# Manage audio files using LFS
+*.wav filter=lfs diff=lfs merge=lfs -text
+
+# Decompress ableton project files
+*.als filter=gzipped
+
